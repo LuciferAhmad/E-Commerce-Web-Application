@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl height="150px" width="950px">images/fo.jpg</ImageUrl>
+    </Ad>
+ <Ad>
+    <ImageUrl height="150px" width="950px">images/gp.jpg</ImageUrl>
+    </Ad>
+ <Ad>
+    <ImageUrl height="150px" width="950px">images/jo.jpg</ImageUrl>
+    </Ad>
+ <Ad>
+    <ImageUrl height="150px" width="950px">images/jp.jpg</ImageUrl>
+    </Ad>
+ <Ad>
+    <ImageUrl height="150px" width="950px">images/kp.jpg</ImageUrl>
+    </Ad>
+ <Ad>
+    <ImageUrl height="150px" width="950px">images/no.jpg</ImageUrl>
+    </Ad>
+ <Ad>
+    <ImageUrl height="150px" width="950px">images/ppp.jpg</ImageUrl>
+    </Ad>
+ <Ad>
+    <ImageUrl height="150px" width="950px">images/zo.jpg</ImageUrl>
+    </Ad>
+  </Advertisements>

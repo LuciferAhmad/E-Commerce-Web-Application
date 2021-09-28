@@ -1,0 +1,54 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>
+        <asp:ContentPlaceHolder ID="title" runat="server">
+
+        </asp:ContentPlaceHolder>
+    </title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+   </asp:ContentPlaceHolder>
+   
+    <link href="../style/StyleSheet.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+      <asp:Label ID="Label1" runat="server" style="z-index: 1; left: 562px; top: 30px; position: absolute; width: 647px" Text="WELCOME TO SHOPPING HEART"></asp:Label>
+        <asp:Label ID="Label2" runat="server" Font-Size="X-Large" style="z-index: 1; left: 620px; top: 90px; position: absolute; width: 516px" Text="FOR THOSE WHO LOVE SHOPPING"></asp:Label>
+        <asp:Panel ID="Panel1" runat="server">
+            <asp:Image ID="Image1" runat="server" ImageUrl="~/headerimg/online.jpg" Width="175px" style="text-align: center; z-index: 1; left: 85px; top: -138px;" Height="145px"></asp:Image>
+            <asp:Image ID="Image2" runat="server" ImageUrl="~/headerimg/online2.jpg" style="z-index: 1; left: 1512px; top: 0px; position: absolute; height: 145px; width: 175px" />
+        </asp:Panel>
+     <div class="wrapper">
+        <div class="menu">
+            <ul>
+                <li class="navigation_first_item"><a href="UserHome.aspx">Home</a></li>
+                <li><a href="categories.aspx">Categories</a></li>
+                
+                <li><a href="Login.aspx">Login</a></li>
+                
+               
+               
+                <li><a href="feedback.aspx">FeedBack</a></li>
+                <li><a href="About.aspx">About Us</a></li>
+            </ul>
+           
+            
+         <div class="content">
+            <asp:ContentPlaceHolder id="contentBody" runat="server">
+            </asp:ContentPlaceHolder>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+         </div>
+            <div class="clear"></div>
+            <div class="footer">
+                <h2>COPYRIGHT &copy; ShoppingHeart.com</h2>
+                </div>
+     </div>
+         </div>
+    </form>
+</body>
+</html>
